@@ -42,15 +42,14 @@
 			fixed4 frag (v2f i) : SV_Target
 			{
 				float2 uv = i.uv;
-				//uv.y = 1. - uv.y;
 				fixed4 col = tex2D(_MainTex, uv);
-				// just invert the colors
-				col = 1 - col;
-				// col.rg = uv.xy;
 				return col;
 			}
 			ENDCG
 		}
 	}
 }
-// grab texture, multi pass, glow, toon, motion blur, volumetric light
+// water + terrain, grab texture, multi pass, glow, toon
+// pixelize mesh uv texture
+// area dissolve
+// motion blur, volumetric light, buffer, fluid

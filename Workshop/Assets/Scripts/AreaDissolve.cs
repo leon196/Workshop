@@ -1,0 +1,19 @@
+using UnityEngine;
+using System.Collections;
+
+public class AreaDissolve : MonoBehaviour {
+
+	Bounds bounds;
+	Material material;
+
+	void Start () {
+		bounds = GetComponent<MeshFilter>().mesh.bounds;
+		material = GetComponent<Renderer>().sharedMaterial;
+		// material = GetComponent<Renderer>().material;
+	}
+	
+	void Update () {
+		material.SetVector("_BoundsMin", bounds.min);
+		material.SetVector("_BoundsMax", bounds.max);
+	}
+}
