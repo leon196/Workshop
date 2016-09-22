@@ -1,4 +1,5 @@
-﻿Shader "Hidden/Filter"
+﻿
+Shader "Hidden/Filter"
 {
 	Properties
 	{
@@ -12,46 +13,29 @@
 		Pass
 		{
 			CGPROGRAM
-			#pragma vertex vert
+			#pragma vertex vert_img
 			#pragma fragment frag
 			
 			#include "UnityCG.cginc"
-
-			struct appdata
-			{
-				float4 vertex : POSITION;
-				float2 uv : TEXCOORD0;
-			};
-
-			struct v2f
-			{
-				float2 uv : TEXCOORD0;
-				float4 vertex : SV_POSITION;
-			};
-
-			v2f vert (appdata v)
-			{
-				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
-				o.uv = v.uv;
-				return o;
-			}
 			
 			sampler2D _MainTex;
 
-			fixed4 frag (v2f i) : SV_Target
+			fixed4 frag (v2f_img i) : SV_Target
 			{
 				float2 uv = i.uv;
 				fixed4 col = tex2D(_MainTex, uv);
+				/*
+				col = 1. - col;
+				*/
 				return col;
 			}
 			ENDCG
 		}
 	}
 }
-// water + terrain, grab texture, multi pass, glow, toon
-// pixelize mesh uv texture
-// motion blur, volumetric light, buffer, fluid
-// hologram
 
-// area dissolve
+// hologram
+// multi pass, glow
+// buffer, motion blur, volumetric light, fluid
+// v2f surf shader
+// obduction particles

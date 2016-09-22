@@ -15,5 +15,10 @@ public class AreaDissolve : MonoBehaviour {
 	void Update () {
 		material.SetVector("_BoundsMin", bounds.min);
 		material.SetVector("_BoundsMax", bounds.max);
+
+		// Vector3 a = bounds.min;
+		// Vector3 b = bounds.min;
+		// b.x = bounds.max.x;
+		// Debug.DrawLine(a, b, Color.red);
 	}
 }

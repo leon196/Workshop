@@ -56,10 +56,12 @@ Shader "Unlit/AreaDissolve"
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
-				float ratio = smoothstep(_BoundsMin.y, _BoundsMax.y, i.vertexLocal.y);
 
+				float ratio = smoothstep(_BoundsMin.y, _BoundsMax.y, i.vertexLocal.y);
+				// col.rgb *= ratio;
+				
 				float lum = Luminance(tex2D(_Dissolution, i.vertexLocal.xy));
-				col.a = smoothstep(0, lum, ratio);
+				col.a = step(lum, ratio);
 
 				return col;
 			}

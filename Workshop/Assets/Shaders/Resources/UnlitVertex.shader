@@ -79,7 +79,9 @@
 			
 			fixed4 frag (v2f i) : SV_Target
 			{
-				fixed4 col = tex2D(_MainTex, i.uv);
+				float2 uv = i.uv;
+				uv = ceil(uv * 128.) / 128.;
+				fixed4 col = tex2D(_MainTex, uv);
 				// col.rgb = i.normal * 0.5 + 0.5;
 				col.rgb *= dot(normalize(i.normal), normalize(i.viewDir)) * 0.5 + 0.5;
 				float2 screenUV = i.screenUV.xy / i.screenUV.w;
