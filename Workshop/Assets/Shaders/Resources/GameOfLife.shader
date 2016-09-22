@@ -36,16 +36,17 @@ Shader "Hidden/GameOfLife"
 				float2 uv = i.uv;
 
 				float2 p = uv - float2(0.5, sin(_Time.y) * 0.5 + 0.5);
-				float shouldCircle = step(0.1, length(p));
+
+				float shouldCircle = smoothstep(0.0, 0.1, length(p));
 				float4 circleColor = float4(1,0,0,1);
 
-				uv.x += 1. / _Resolution.x;
-				uv = fmod(abs(uv), 1);
-
+				// uv.y += 1. / _Resolution.x;
+				// uv = fmod(abs(uv), 1);
 				fixed4 col = tex2D(_MainTex, uv);
-
 				col *= 0.99;
+				// fixed4 col = fixed4(0,0,0,1);
 
+				//
 				col = lerp(col, circleColor, 1. - shouldCircle);
 
 				return col;

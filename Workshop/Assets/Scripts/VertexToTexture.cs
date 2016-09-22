@@ -3,6 +3,7 @@ using System.Collections;
 
 public class VertexToTexture : MonoBehaviour 
 {
+	public Material debug;
 	public Material shader;
 	public string uniformName;
 
@@ -48,6 +49,10 @@ public class VertexToTexture : MonoBehaviour
 		Graphics.Blit(frameBuffer.Get(), output, shader);
 		output = frameBuffer.Get();
 		frameBuffer.Swap();
+
+		if (debug) {
+			debug.mainTexture = output;
+		}
 
 		Shader.SetGlobalTexture("_VertexTexture", texture);
 		Shader.SetGlobalTexture(uniformName, frameBuffer.Get());

@@ -53,8 +53,9 @@ public class GameOfLifeShaderPass : MonoBehaviour
 		if (shader == null)
 		{
 			shader = new Material(Shader.Find("Hidden/GameOfLife"));
-			shader.SetVector("_Resolution", new Vector2(width, height));
 		}
+		
+		shader.SetVector("_Resolution", new Vector2(width, height));
 
 		if (last + delay < Time.time)
 		{

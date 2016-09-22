@@ -36,7 +36,7 @@ Shader "Filter/VertexTexturePass"
 
 				float3 random = float3(noiseIQ(col + float3(_Time.y, 0, 0)), noiseIQ(col * 4.), noiseIQ(col * 8.));
 
-				random = 0.01 * normalize(random);
+				random = 0.1 * normalize(random);
 
 				col.xyz = lerp(col.xyz + random, morph.xyz, sin(_Time.y) * 0.5 + 0.5);
 
