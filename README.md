@@ -38,7 +38,7 @@
 <img src="gifs/WorkshopGlass2.gif" height=200>
 <img src="gifs/WorkshopGlass3.gif" height=200>
 ## [Curve Modifier Unity3D](https://github.com/leon196/CurveModifier)
-<img src="gifs/CurveModifier.gif" height=200>
+![](gifs/CurveModifier.gif)
 ## [Unity3D Time Displacement](https://github.com/leon196/TimeDisplacement)
 <img src="gifs/TimeDisplacement.gif" height=200>
 ## [Unity3D Tribute To Myst](https://github.com/leon196/MystJamGame)
