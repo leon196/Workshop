@@ -40,20 +40,20 @@
 ## [Curve Modifier Unity3D](https://github.com/leon196/CurveModifier)
 ![](gifs/CurveModifier.gif)
 ## [Unity3D Time Displacement](https://github.com/leon196/TimeDisplacement)
-<img src="gifs/TimeDisplacement.gif" height=200>
+<img src="gifs/TimeDisplacement.gif">
 ## [Unity3D Tribute To Myst](https://github.com/leon196/MystJamGame)
-<img src="gifs/TributeToMyst.gif" height=200>
+<img src="gifs/TributeToMyst.gif">
 ## [Unity3D Glitch Processing Unit](https://github.com/leon196/GPU)
-<img src="gifs/GPU.gif" height=200>
+<img src="gifs/GPU.gif">
 ## [Optical Flow with Processing](https://github.com/leon196/OpticalFlowExample)
-<img src="gifs/OpticalFlow.gif" height=200>
+<img src="gifs/OpticalFlow.gif">
 ## [WebGL Choupichoup](https://github.com/leon196/Choupichoup)
-<img src="gifs/Choupichoup.gif" height=200>
+<img src="gifs/Choupichoup.gif">
 ## [WebGL Glitch TV](https://github.com/leon196/GPU/tree/master/GlitchTV)
-<img src="gifs/VJ.gif" height=200>
+<img src="gifs/VJ.gif">
 ## [WebGL Voxel Octree](https://github.com/leon196/Voxel/tree/master/WebGL)
-<img src="gifs/Octree.gif" height=200>
+<img src="gifs/Octree.gif">
 ## [WebGL drag and glitch project](https://github.com/leon196/DragAndGlitch)
-<img src="gifs/DragAndGlitch.gif" height=200>
+<img src="gifs/DragAndGlitch.gif">
 ## [WebGL demoscene for Evoke 2016](https://github.com/leon196/NaturallyUndead)
-<img src="gifs/naturallyUndead.gif" height=200>
+<img src="gifs/naturallyUndead.gif">
