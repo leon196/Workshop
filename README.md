@@ -3,7 +3,8 @@
 - [Fragment shader lesson]( https://github.com/Jam3/jam3-lesson-webgl-shader-intro) by **Matt DesLauriers**
 - [Vertex shader lesson](https://github.com/Jam3/jam3-lesson-webgl-shader-threejs) by **Matt DesLauriers**
 - [Shadertoy tutorial](http://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313) by **Omar Shehata**
-- [A giant list of open sources games](https://github.com/gloomyson/games)
+- [GLSL reference](http://www.shaderific.com/glsl/)
+- [**A giant list of open sources games**](https://github.com/gloomyson/games)
 
 # Unity3D shader resources
 
