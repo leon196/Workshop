@@ -1,4 +1,6 @@
 # General resources
+- [Casual Introduction to Low-Level Graphics Programming](http://stephaniehurlburt.com/blog/2016/10/28/casual-introduction-to-low-level-graphics-programming) by **Stephanie Hurlburt**
+- [Primer: Shaders](https://notes.underscorediscovery.com/shaders-a-primer/) by **Sven Bergström**
 - [The Book Of Shaders](https://thebookofshaders.com) by **Patricio Gonzalez Vivo** and **Jen Lowe**
 - [Fragment shader lesson]( https://github.com/Jam3/jam3-lesson-webgl-shader-intro) by **Matt DesLauriers**
 - [Vertex shader lesson](https://github.com/Jam3/jam3-lesson-webgl-shader-threejs) by **Matt DesLauriers**
