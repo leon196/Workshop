@@ -1,6 +1,10 @@
 # General resources
 - [Casual Introduction to Low-Level Graphics Programming](http://stephaniehurlburt.com/blog/2016/10/28/casual-introduction-to-low-level-graphics-programming) by **Stephanie Hurlburt**
 - [Primer: Shaders](https://notes.underscorediscovery.com/shaders-a-primer/) by **Sven Bergström**
+- [A trip through the Graphics Pipeline](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/) by **Fabian Giesen**
+- [Graphics in Plain Language](https://renderdoc.org/blog/Graphics-in-Plain-Language/) by **Baldur Karlsson**
+- [GTA V - Graphics Study](http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/) by **Adrian Courrèges**
+- [Game Art Tricks](https://simonschreibt.de/game-art-tricks/) by **Simon Schreibt**
 - [The Book Of Shaders](https://thebookofshaders.com) by **Patricio Gonzalez Vivo** and **Jen Lowe**
 - [Fragment shader lesson]( https://github.com/Jam3/jam3-lesson-webgl-shader-intro) by **Matt DesLauriers**
 - [Vertex shader lesson](https://github.com/Jam3/jam3-lesson-webgl-shader-threejs) by **Matt DesLauriers**
